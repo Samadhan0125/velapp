@@ -11,6 +11,7 @@ pipeline{
                  stage ('one') {
                                 steps {
 
+
                                         echo "Hello velocity"
 
 
