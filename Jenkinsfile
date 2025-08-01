@@ -8,7 +8,7 @@ pipeline{
 
          }
          stages {
-                 stage ('one') {
+                 stage ('stage-1') {
                                 steps {
 
 
@@ -17,7 +17,7 @@ pipeline{
 
                                 }
                  }
-                 stage ('two') {
+                 stage ('stage-2') {
                                 steps {
                                         sh "yum install httpd -y"
                                         sh "cp index.html /var/www/html/"
